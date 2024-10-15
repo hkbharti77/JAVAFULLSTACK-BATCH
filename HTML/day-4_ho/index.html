@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Table</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <table border="1">
+        <caption>Table</caption>
+        <tr align="centre">
+            <td align="center">A</td>
+            <td rowspan="2">
+                <li>Items</li>
+                <li>Items</li>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">C</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">B</td>
+        </tr>
+        <tr>
+            <td>
+                <li>Items</li>
+                <li>Items</li>
+            </td>
+            <td>
+                <table border="1" align="center">
+                    <tr>
+                        <td r colspan="2">Table</td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="2" align="center">E</td>
+                        <td align="center">F</td>
+                    </tr>
+                    <tr>
+                        <td align="center">G</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
